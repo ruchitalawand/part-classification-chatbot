@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "torque_wrench",
+      "patterns": ["What is a torque wrench?", "Tell me about torque wrench", "How is torque wrench used?"],
+      "responses": ["A torque wrench is a tool used to precisely apply a specific torque to a fastener. It's commonly used in vehicle assembly."]
+    },
+    {
+      "tag": "diagnostic_tool",
+      "patterns": ["What is a diagnostic tool?", "Use of diagnostic scanner", "How do you diagnose vehicle issues?"],
+      "responses": ["A diagnostic tool is used to read and clear vehicle fault codes and monitor systems in Tata Motors vehicles."]
+    },
+    {
+      "tag": "obd_scanner",
+      "patterns": ["What is an OBD scanner?", "Explain OBD tool", "Function of OBD scanner"],
+      "responses": ["OBD scanners are devices used to interface with a vehicle's onboard diagnostics system, important for emission control and engine performance."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    }
+  ]
+}
